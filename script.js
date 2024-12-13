@@ -1,5 +1,5 @@
 //DOM on récupère les éléments du DOM
-const touchs = [...document.querySelectorAll('.btn')]; //Faire un console log des touche afin de voir la node liste qui n'est pas peratique nous allons donc faire un tableau )
+const touchs = [...document.querySelectorAll('.btn','btnDelete')]; //Faire un console log des touche afin de voir la node liste qui n'est pas peratique nous allons donc faire un tableau )
 //on va recuperer chaque element de notre tableau touche et enrecupérer la key de data key
 const listeKeycode = touchs.map(touch => touch.dataset.key); // map est une fonction JS prend chaque élement d'un tableau fait quelque chose a cette élément (fonction callback) et retourne le résultat sous forme de nvx tableau
 const screen = document.querySelector('.screen'); // L'élement de l'écran qui va afficher les résultats

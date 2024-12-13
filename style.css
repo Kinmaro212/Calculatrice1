@@ -52,13 +52,34 @@ box-shadow: 0 3px #a8a8a8;
 font-size: 18px;
 }
 
+.btnDelete{
+    background-color: #e66f00;
+    border-radius: 5px;
+    box-shadow: 0 3px #a8a8a8;
+}
 .btn {
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
-
-.btn:hover {
-    background-color: #e6e6e6; /* Change légèrement la couleur de fond */
+.btnEgal{
+    grid-column: span 2;
+    background-color: #059700; /* Change légèrement la couleur de fond */
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+}
+.btnEgal:hover {
+    background-color: #059700; /* Change légèrement la couleur de fond */
+    transform: translateY(-5px); /* Déplace la touche vers le haut */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Ajoute une ombre pour l'effet de soulèvement */
+}
+.btnDelete:hover {
+    background-color: #e66f00; /* Change légèrement la couleur de fond */
+    transform: translateY(-5px); /* Déplace la touche vers le haut */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Ajoute une ombre pour l'effet de soulèvement */
+}
+.btn.active {
+    background-color: #e66f00; /* Change légèrement la couleur de fond */
     transform: translateY(-5px); /* Déplace la touche vers le haut */
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Ajoute une ombre pour l'effet de soulèvement */
 }
