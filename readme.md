@@ -26,4 +26,3 @@ Merci de découvrir ce projet et de l'utiliser pour vos calculs quotidiens. Si v
 
 ---
 
-Bonne utilisation et à bientôt !
